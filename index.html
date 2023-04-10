@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyboard"
+        content="project website, personal project website, project, personal project lifecode, begineer project website, project personal, project design">
+    <meta name="description" content="welcome to my project website, Frontend Developer">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c0975fc8ed.js" crossorigin="anonymous"></script>
+    <!-- SCROLL REVEAL LIBARY  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	
+	<script type="text/javascript">
+	$(function () {
+		
+		var filterList = {
+		
+			init: function () {
+		
+				$('#portfoliolist').mixItUp({
+  				selectors: {
+    			  target: '.portfolio',
+    			  filter: '.filter'	
+    		  },
+    		  load: {
+      		  filter: '.app'  
+      		}     
+				});								
+			
+			}
+
+		};
+		
+		// Run the show!
+		filterList.init();
+		
+		
+	});	
+	</script>
+
+    <title>Portfolio website</title>
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Port<span>code</span></a>
+            <div class="links"> <!-- link class start here-->
+                <ul>
+                    <li>
+                        <a href="#home" class="nav_link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav_link">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#skills" class="nav_link">Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="#running" class="nav_link">Running</a>
+                    </li>
+
+                    <li>
+                        <a href="#project" class="nav_link">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="nav_link">Contact</a>
+                    </li>
+
+                    <li>
+                        <a href="#update" class="nav_link">Update</a>
+                    </li>
+                </ul>
+                <!-- Moon  -->
+                <i class=" fa-regular fa-moon toggle_btn" id="uil"></i>
+                <!-- <i class="fa-regular fa-moon toggle_btn" id="uil"></i> -->
+
+            </div> <!-- link class end here-->
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- NAVBAR ENDS HERE  -->
+
+    <main>
+
+
+        <section class="homeA" id="home">
+            <div class="container"><!-- container class start here-->
+
+                <div class="showinfo"><!-- showinfo class start here-->
+
+                    <h3 class="sub_heading">Design By Designer</h3>
+                    <h2 class="moder">Hello__<span id="span">There</span> <br />I'M <span
+                            class="horakrishna">Saurabh</span></h2>
+                    <p style="font-size: 1.5rem;
+                    padding: 1rem 0;
+                    font-weight: 600;
+                    font-family: Righteous;
+                    ;
+                " id="horibol">I' am <span class="typing-text" style="font-size:1.5rem;
+                font-weight: 600;padding: 1rem 0;color: rgb(255, 0, 0); margin-left: 4px;"></span></p>
+                    <div class="cta"><!-- class cta start here-->
+
+                    </div><!-- class cta end here-->
+                    <a href="#" class="btn" style="letter-spacing: 0.1rem;">About me
+                        <i class="fas fa-arrow-circle-down"></i>
+                    </a>
+                </div><!-- showinfo class end here-->
+
+
+                <div class="showimage"><!--showimage start here-->
+                    <img src="/20230211_004843.jpg" class="person" alt="">
+                </div><!--showimage start here-->
+
+
+
+            </div><!-- container class end here-->
+        </section>
+
+
+        <section class="about section" id="about">
+            <div class="container"><!-- container class start here-->
+
+
+                <div class="about-grid"><!-- about-grid start here -->
+                    <div class="social-iconsdev"><!--about-card start here -->
+                        <li><a class="dev" aria-label="dev" href="#" target="_blank"><i class="fab fa-dev"></i></a></li>
+                        <h4 class="htoo" style="margin-right: 18px; font-family: emoji;">Dev</h4>
+                        <!-- <i class="fa-solid "></i> -->
+                    </div><!--about-card end here -->
+
+                    <div class="social-iconslinkdin">
+                        <li><a class="linkedin" aria-label="LinkedIn" href="#" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a></li>
+                        <h4 class="htoo" style="margin-right: 13px; font-family: emoji;">Linkdin</h4>
+                    </div>
+
+                    <div class="social-iconsfacebook">
+                        <li><a class="facebook" aria-label="Facebook" href="#" target="_blank"><i
+                                    class="fab fa-facebook"></i></a></li>
+                        <h4 class="htoo" style="margin-right: 13px; font-family: emoji;">Facebook</h4>
+                    </div>
+
+                    <div class="social-iconsgit">
+                        <li><a class="github" aria-label="GitHub" href="#" target="_blank"><i
+                                    class="fab fa-github"></i></a></li>
+                        <h4 class="htoo" style="margin-right: 16px;  font-family: emoji;">Github</h4>
+                    </div>
+
+                </div><!-- about-grid end here -->
+
+                <div class="about-info"><!-- about-info start here-->
+                    <h3 class="sub_heading">About Me</h3>
+                    <h1 class="heading">Frontend Developer</h1>
+                    <p class="text"> Hi all,
+                        I've previously complete Diploma from Siliguri government polytechnic College & Then I completed
+                        B-tech from Camellia School Of Engineering and Technology. and after that
+                        I've started my journey in web devlopment and I want to make carear on it.
+                        I'm Specializing in front end development and Experienced with all stages of the development
+                        cycle for dynamic web projects. Well-versed in numerous programming languages including HTML,
+                        PHP, JavaScript, CSS., and I'm looking for a job and ready to face new chalenges.</p>
+                    <div class="cta"><!-- class cta start here-->
+
+                    </div><!-- class cta end here-->
+                    <!-- <a href="#" class="resumebtn" >Resume<i class="fas fa-chevron-right"></i></a> -->
+                    <div class="resumebtn"> <!--resume div start here-->
+                        <a href="#" class="btn2">Resume<i class="fa-solid fa-angle-right"></i></a> <!-- amar edit-->
+                    </div> <!-- resume end here -->
+                    <!-- <a href="./assets/img/pdf.pdf" download class="btn secondary-btn">Download CV</a> -->
+                </div><!-- showinfo class end here-->
+            </div><!-- about-info end here-->
+
+            </div><!-- container class end here-->
+        </section>
+
+
+
+
+        <!-- SKILLS  -->
+
+
+        <section class="skills section" id="skills">
+
+            <div class="container">
+                <div class="skills_box">
+                    <div class="box_heading"><!-- box_heading start here -->
+                        <h3 class="sub_heading"> My skills</h3>
+                        <h1 class="heading">Let me know</h1>
+                        <div class="box-desc"><!--box-desc start here -->
+                            <p class="text"><!-- text class start here -->
+                                I am constantly trying to develope my skills. I am trying to learn more deeply and
+                                develop my own projects. I am always seeking out new opportunities to learn and grow in
+                                this field.
+                            </p><!-- text class end here -->
+                            <a href="/index.html" class="btn">hire me</a>
+                        </div><!--box-desc end here -->
+                    </div><!-- box_heading end here -->
+                    <div class="skills-wrap">
+                        <div class="skill"><!-- skill start here-->
+                            <div class="skpro"><!-- skpro start here-->
+                                <svg>
+                                    <circle cx="75" cy="75" r="68" />
+                                </svg>
+                                <h2 class="counter">
+                                    <span data-target="70">0</span>
+                                </h2>
+                            </div><!-- skpro end here-->
+                            <div class="sk-title">HTML/CSS</div>
+                        </div><!-- skill end here-->
+
+
+                        <div class="skill"><!-- skill start here-->
+                            <div class="skpro"><!-- skpro start here-->
+                                <svg>
+                                    <circle cx="75" cy="75" r="68" />
+                                </svg>
+                                <h2 class="counter">
+                                    <span data-target="69">0</span>
+                                </h2>
+                            </div><!-- skpro end here-->
+                            <div class="sk-title">JAVASCRIPT</div>
+                        </div><!-- skill end here-->
+
+                        <div class="skill"><!-- skill start here-->
+                            <div class="skpro"><!-- skpro start here-->
+                                <svg>
+                                    <circle cx="75" cy="75" r="68" />
+                                </svg>
+                                <h2 class="counter">
+                                    <span data-target="67">0</span>
+                                </h2>
+                            </div><!-- skpro end here-->
+                            <div class="sk-title">PHP/DBMS</div>
+                        </div><!-- skill end here-->
+
+                        <div class="skill"><!-- skill start here-->
+                            <div class="skpro"><!-- skpro start here-->
+                                <svg>
+                                    <circle cx="75" cy="75" r="68" />
+                                </svg>
+                                <h2 class="counter">
+                                    <span data-target="80">0</span>
+                                </h2>
+                            </div><!-- skpro end here-->
+                            <div class="sk-title">BOOTSTARP</div>
+                        </div><!-- skill end here-->
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- SERVICES SECTION START HERE  -->
+
+
+
+
+
+
+        <section class="running section" id="running">
+
+            <div class="container"><!-- container class start here-->
+                <div class="running-info"><!-- running-info class start here -->
+                    <h1 class="sub_heading">My Project</h1>
+                    <h1 class="heading">Running Projects </h1>
+                    <p class="text">I am trying to create more new exhibition projects.I hope i can present the project
+                        to you in time. I hope to be able to present the projects to you very soon & you will like them
+                        very much.</p>
+                    <div class="milestones"><!-- milestone class start here -->
+                        <div class="ml"><!-- ml class start here -->
+                            <h2 class="number"><span data-target="1.5">0</span>+</h2>
+                            <h5>Years</h5>
+                        </div><!-- ml class end here -->
+                        <div class="ml"><!-- ml class start here -->
+                            <h2 class="number"><span data-target="7">0</span>+</h2>
+                            <h5>Projects</h5>
+                        </div><!-- ml class end here -->
+                        <div class="ml"><!-- ml class start here -->
+                            <h2 class="number"><span data-target="5">0</span>+</h2>
+                            <h5>Running Projects</h5>
+                        </div><!-- ml class end here -->
+                    </div><!-- milestone end start here -->
+                    <div class="cta"><!-- div cta class start here -->
+                        <a href="" class="btn">Running Project <i class="fas fa-arrow-circle-right"></i></a>
+                        <!-- <a href="" download class="btn secondary-btn">Loremipsum dolor</a> -->
+                    </div><!-- div cta class end here -->
+                </div><!-- running-info class end here -->
+
+                <div class="running-grid"><!-- running-grid start here -->
+                    <div class="srv-card"><!-- srv card start here -->
+                        <div class="card-desc"><!-- card-desc start here -->
+                            <h3 id="Krishna">First Project</h3>
+                            <p class="text">
+                                work on a music website
+                                Proper html Css & javascript used in this Project.
+                                <span class="read-more-text">
+                                Which is fully responsive & will work
+                                on the following gist of javascript.
+                            </span>
+                            </p>
+                        </div><!-- card-desc end here -->
+                         <!-- <a href="" class="btn secondary-btn">read more</a>  -->
+                    </div><!-- srv card end here -->
+
+                    <div class="srv-card"><!-- srv card start here -->
+                        <div class="card-desc"><!-- card-desc start here -->
+                            <h3 id="Krishna">Second Project</h3>
+                            <p class="text">
+                                work on a e-commerce website
+                                Proper html, css, javascript, php and dbms used in this project. It's Fully Responsive.
+                                I hope You like this Projects.
+                            </p>
+                        </div><!-- card-desc end here -->
+                        <!-- <a href="#" class="btn secondary-btn">read more</a> -->
+                    </div><!-- srv card end here -->
+
+
+
+                    <div class="srv-card"><!-- srv card start here -->
+                        <div class="card-desc"><!-- card-desc start here -->
+                            <h3 id="Krishna">Third Project</h3>
+                            <p class="text">
+                                work on a Resturent website
+                                Proper html, css, javascript and php with dbms used in this project. It's fulley
+                                responsive mood.I hope you like this projects.
+                            </p>
+                        </div><!-- card-desc end here -->
+                        <!-- <a href="#" class="btn secondary-btn">read more</a> -->
+                    </div><!-- srv card end here -->
+
+
+
+                    <div class="srv-card"><!-- srv card start here -->
+                        <div class="card-desc"><!-- card-desc start here -->
+                            <h3 id="Krishna">Forth Project</h3>
+                            <p class="text">
+                                work on a coffe website.
+                                This project will be made with the help of wordpres.
+                            </p>
+                        </div><!-- card-desc end here -->
+                        <!-- <a href="#" class="btn secondary-btn">read more</a> -->
+                    </div><!-- srv card end here -->
+                </div><!-- running-grid end here -->
+            </div><!-- container class end here-->
+
+        </section>
+
+        <!-- Portfolio Section  -->
+
+	<div class="containercon " id="project">
+
+		<ul id="filters" class="clearfix">
+			<li><span class="filter active" data-filter=".app, .card, .icon, .logo, .web">All Project</span></li>
+			
+		</ul>
+
+		<div id="portfoliolist">
+
+			<div class="portfolio app project-gallery">
+				<div class="portfoliowrapper">			
+					<img src="assets/img/cof2.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a href="" class="text-title">Music Website</a>
+							<!-- <span class="text-category">APP</span> -->
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>		
+			
+			<div class="portfolio web" data-cat="web">
+				<div class="portfoliowrapper">						
+					<img src="assets/img/music 2.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a href="" class="text-title">Music Website</a>
+							<!-- <span class="text-category">Web design</span> -->
+                            
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>				
+			
+			<div class="portfolio card" data-cat="card">
+				<div class="portfoliowrapper">			
+					<img src="assets/img/weather.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a href="" class="text-title">Resturent Website</a>
+							<!-- <span class="text-category">Business card</span> -->
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+						
+			<div class="portfolio app" data-cat="app">
+				<div class="portfoliowrapper">
+					<img src="assets/img/cfe2.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a href="" class="text-title">Coffe Website</a>
+							<!-- <span class="text-category">APP</span> -->
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+
+            
+			
+            
+			
+		</div>
+		
+	</div><!-- container -->
+
+        <section class="contact section" id="contact" style="
+        margin: 7rem 0;
+    ">
+            <div class="container">
+                <div class="contact-info">
+                    <h3 class="sub_heading">Contact me</h3>
+                    <h1 class="heading">Let's talk To me</h1>
+                    <p class="text">Thank you very much for visiting my website, I will try to do better in the future.
+                        Be well. stay healthy and try to keep others well. THANK YOU
+
+                    </p>
+                    <a href="saurabhiamok15@gmail.com" class="mail">saurabhsant075@gmail.com
+                        <i class="fa-solid fa-share"></i></a>
+                </div>
+                <form method="POST" action="index.html" class="contact-form">
+                    <strong>
+                        
+                    </strong>
+                    <h3>Send me a message</h3>
+
+                    <input type="text" class="form-input" placeholder="Enter your name" required>
+
+                    <input type="email" class="form-input" placeholder="Enter your email" required>
+
+                    <textarea  placeholder="Text your message" class="form-input" required
+                        style="font-family: unset;letter-spacing: 1px;"></textarea>
+
+                    <a href="#"  class="btn">send
+                        <i class="fas fa-arrow-circle-right"></i>
+                    </a>
+                </form>
+            </div>
+        </section>
+        <!-- time table here  -->
+
+        <section style="padding:7rem 0;" id="update">
+            <!-- <h1 class="headinghed"> customers <span>review</span> </h1> -->
+            <h4 class="headinghed">
+                <p class="deal text-center"><span id="time" style="font-weight: 100; margin-right: 5px; font-family: 'Julee', cursive;"> Comming
+                        Soon</span> <span id="demo" style="letter-spacing: 3px;"></span></p>
+            </h4>
+            <div class="buttonsbt">
+                <button class="btnbz">Update Available</button>
+                <!-- <button class="btnbz">Contact Us</button> -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <a href="#" class="logo">Port<span>code</span></a>
+            <p class="text2" style="margin-left: 107px; color: var(--text-color);
+            font-family: math;">&copy; Copyright 2023. All rights reserved</p>
+            <div class="socials">
+                <ul class="social-icons">
+                    <li><a class="linkedin" aria-label="LinkedIn" href="#" ><i
+                                class="fab fa-linkedin"></i></a></li>
+                    <li><a class="github" aria-label="GitHub" href="#" ><i class="fab fa-github"></i></a>
+                    </li>
+                    <li><a class="facebook" aria-label="Facebook" href="#" ><i
+                                class="fab fa-facebook"></i></a></li>
+                    <li><a class="dev" aria-label="dev" href="#" ><i class="fab fa-dev"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- scroll top btn -->
+    <a href="#home" aria-label="ScrollTop" class="fa-solid fa-angle-up" id="scroll-top"></a>
+    <!-- scroll back to top -->
+
+
+    <!-- JAVASRIPT FILES  -->
+    <script src="./js/mixitup.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/mixitup.min.js"></script>
+    <script src="./js/jquery.mixitup.min.js"></script>
+</body>
+</html>
